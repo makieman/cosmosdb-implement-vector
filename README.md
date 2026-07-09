@@ -92,7 +92,7 @@ Open: http://127.0.0.1:5000
 ## Performance Notes
 - Chunk-based storage improves retrieval accuracy.
 - Idempotent upserts avoid duplicate writes.
-- Partition key uses `documentId` for efficient reads.
+- Partition key uses `documentId` for efficient reads
 
 ## License
 MIT License
