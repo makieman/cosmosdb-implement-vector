@@ -8,16 +8,6 @@
 ## Overview
 This project demonstrates vector search in Azure Cosmos DB for NoSQL using a simple Flask app. It stores documents with embeddings, runs similarity search, and supports filtered queries by metadata.
 
-## Architecture
-
-```mermaid
-flowchart TD
-    A[Source data (sample_vectors.json)] --> B[Load into Cosmos DB]
-    B --> C[Vector embeddings stored]
-    C --> D[Vector similarity search]
-    D --> E[Filtered search by metadata]
-    E --> F[Flask UI results]
-```
 
 ## Tech Stack
 - Database: Azure Cosmos DB for NoSQL (vector search)
