@@ -21,7 +21,7 @@ This project demonstrates vector search in Azure Cosmos DB for NoSQL using a sim
   "id": "chunk-id",
   "documentId": "doc-1",
   "content": "text chunk...",
-  "embedding": [0.123, -0.456, ...],
+  "embedding": [0.123, -0.456, ],
   "metadata": {
     "source": "support-portal",
     "category": "billing",
