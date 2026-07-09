@@ -72,7 +72,6 @@ Menu flow:
 ### 2) Load environment variables (PowerShell)
 ```powershell
 . .\.env.ps1
-```
 
 ### 3) Run the Flask app
 ```powershell
